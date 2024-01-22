@@ -23,21 +23,21 @@ export default function Header() {
                 <div className="header__logo ">
                   <Link href="/">
                     <Image
-                      width={140}
-                      height={50}
-                      src="/assets/img/general/logo.svg"
+                      width={200}
+                      height={100}
+                      src="/assets/img/general/logoName.png"
                       alt="logo"
                     />
                   </Link>
                 </div>
 
-                {/* header explore start */}
+                {/* header explore start 
                 <HeaderExplore
                   allClasses={
                     "header__explore text-green-1 ml-60 xl:ml-30 xl:d-none"
                   }
                 />
-                {/* header explore end */}
+                 header explore end */}
               </div>
             </div>
 

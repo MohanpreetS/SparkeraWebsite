@@ -51,16 +51,23 @@ export default function HeroSix() {
           />
         </div>
 
-        <div className="container">
+        <div className="container"    >
           <div className="row y-gap-50 items-center justify-between">
             <div className="col-lg-6" data-aos="fade-up" data-aos-delay="500">
               <div className="masthead__content">
+                {/* <h1 className="masthead__title">
+                  Spark your child's Curiosity
+                </h1> */}
                 <h1 className="masthead__title">
+                  <span className="text-purple-1 =-">Spark</span>{" "}Your
+                  Child's Curiosity
+                </h1>
+                {/* <h1 className="masthead__title">
                   More Than{" "}
                   <span className="text-purple-1 underline">3.500+</span>{" "}
                   <br className="md:d-none" /> Education Courses
                   <br className="md:d-none" /> Online Join Us Today
-                </h1>
+                </h1> */}
 
                 <div className="row items-center x-gap-30 y-gap-20 pt-30">
                   <div className="col-auto">
@@ -112,6 +119,7 @@ export default function HeroSix() {
 
             <div className="col-lg-6" data-aos="fade-up" data-aos-delay="750">
               <div className="composition -type-1 js-mouse-move-container">
+
                 <div className="-img-1">
                   <Image
                     width={255}
@@ -163,6 +171,7 @@ export default function HeroSix() {
                 </div>
 
                 <div data-move="60" className="-el-2 md:d-none js-mouse-move">
+
                   <div className="img-el -w-260 px-20 py-20 d-flex items-center bg-white rounded-8">
                     <Image
                       width={70}
@@ -214,6 +223,7 @@ export default function HeroSix() {
                       </div>
                       <div className="mt-3">Your Admission Completed</div>
                     </div>
+
                   </div>
                 </div>
               </div>

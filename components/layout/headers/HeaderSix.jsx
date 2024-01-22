@@ -26,9 +26,8 @@ export default function HeaderSix() {
   }, []);
   return (
     <header
-      className={`header -type-4 js-header ${
-        scrollPosition > 40 ? "bg-white" : ""
-      } `}
+      className={`header -type-4 js-header ${scrollPosition > 40 ? "bg-white" : ""
+        } `}
     >
       <div className="header__container py-5 border-bottom-dark">
         <div className="row justify-between items-center">
@@ -39,7 +38,7 @@ export default function HeaderSix() {
                   <Image
                     width={140}
                     height={50}
-                    src="/assets/img/general/logo-black.svg"
+                    src="/assets/img/general/logoNameDark.png"
                     alt="logo"
                   />
                 </Link>
@@ -54,7 +53,12 @@ export default function HeaderSix() {
           </div>
 
           <div className="col-auto">
-            <div className="header-right d-flex items-center">
+            <div className="header-right d-flex items-center"
+
+
+
+
+            >
               <div className="header-right__icons text-white d-flex items-center">
                 <SearchToggle color={"text-dark-1"} />
                 <CartToggle
