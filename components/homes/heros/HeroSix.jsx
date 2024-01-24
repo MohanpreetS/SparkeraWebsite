@@ -59,9 +59,10 @@ export default function HeroSix() {
                   Spark your child's Curiosity
                 </h1> */}
                 <h1 className="masthead__title">
-                  <span className="text-purple-1 =-">Spark</span>{" "}Your
-                  Child's Curiosity
+                  <span className="concert gradient-text">Spark</span>{" "}Your <br></br>
+                  Child's <span className="concert gradient-text">Curiosity</span>
                 </h1>
+                <h2 class="semi-title"><span className="text-purple-1">Math</span> and <span className="text-purple-1">English</span> Worksheet Based Program</h2>
                 {/* <h1 className="masthead__title">
                   More Than{" "}
                   <span className="text-purple-1 underline">3.500+</span>{" "}
@@ -78,7 +79,7 @@ export default function HeroSix() {
                       Get Started
                     </Link>
                   </div>
-
+                  {/* 
                   <div
                     className="col-auto"
                     onClick={() => setIsOpen(true)}
@@ -94,7 +95,7 @@ export default function HeroSix() {
                       </div>
                       <div className="ml-10">Watch Video</div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
 
                 <div className="row x-gap-20 y-gap-20 items-center pt-60 lg:pt-30">
@@ -151,7 +152,7 @@ export default function HeroSix() {
                   />
                 </div>
 
-                <div data-move="30" className="-el-1 md:d-none js-mouse-move">
+                {/* <div data-move="30" className="-el-1 md:d-none js-mouse-move">
                   <div className="img-el -w-250 px-20 py-20 d-flex items-center bg-white rounded-8">
                     <div className="size-50 d-flex justify-center items-center bg-red-2 rounded-full">
                       <Image
@@ -168,9 +169,9 @@ export default function HeroSix() {
                       <div className="mt-3">Free Courses</div>
                     </div>
                   </div>
-                </div>
+                </div> */}
 
-                <div data-move="60" className="-el-2 md:d-none js-mouse-move">
+                {/* <div data-move="60" className="-el-2 md:d-none js-mouse-move">
 
                   <div className="img-el -w-260 px-20 py-20 d-flex items-center bg-white rounded-8">
                     <Image
@@ -203,9 +204,9 @@ export default function HeroSix() {
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> */}
 
-                <div data-move="30" className="-el-3 md:d-none js-mouse-move">
+                {/* <div data-move="30" className="-el-3 md:d-none js-mouse-move">
                   <div className="img-el px-40 py-20 shadow-4 d-flex items-center bg-white rounded-8">
                     <div className="img-el__side">
                       <div className="size-50 d-flex justify-center items-center bg-purple-1 rounded-full">
@@ -225,7 +226,7 @@ export default function HeroSix() {
                     </div>
 
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

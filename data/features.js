@@ -42,17 +42,17 @@ export const featureSix = [
   {
     id: 1,
     imageSrc: "/assets/img/home-6/hero/icons/1.svg",
-    text: "Over 12 million students",
+    text: "Over 15 Years of Experience",
   },
   {
     id: 2,
     imageSrc: "/assets/img/home-6/hero/icons/2.svg",
-    text: "More than 60,000 courses",
+    text: "Daily Worksheets for practice",
   },
   {
     id: 3,
     imageSrc: "/assets/img/home-6/hero/icons/3.svg",
-    text: "Learn anything online",
+    text: "Online Classes Available",
   },
 ];
 

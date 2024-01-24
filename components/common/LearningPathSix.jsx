@@ -7,12 +7,12 @@ export default function LearningPathSix() {
         <div className="row justify-center text-center">
           <div className="col-auto">
             <div className="sectionTitle ">
-              <h2 className="sectionTitle__title ">Why FutureLearn?</h2>
+              <h2 className="sectionTitle__title ">Why SparkEra?</h2>
 
-              <p className="sectionTitle__text ">
+              {/* <p className="sectionTitle__text ">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
                 eiusmod.
-              </p>
+              </p> */}
             </div>
           </div>
         </div>
