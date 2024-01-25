@@ -1,5 +1,7 @@
 import React from "react";
 import { learningPathSix } from "../../data/learningPaths";
+import Image from "next/image";
+import brainSvg from "../../public/assets/img/homeIcons/brain.svg";
 export default function LearningPathSix() {
   return (
     <section className="layout-pt-md layout-pb-md">
@@ -22,7 +24,13 @@ export default function LearningPathSix() {
             <div key={i} className="col-lg-3 col-md-6">
               <div className="coursesCard -type-3 px-0 text-center">
                 <div className="coursesCard__icon bg-white shadow-2">
-                  <i className={elm.iconClass}></i>
+                  <Image
+                    width={40}
+                    height={40}
+                    fill="#000000"
+                    src="assets/img/homeIcons/brain.svg"
+                    alt="icon"
+                  />
                 </div>
 
                 <div className="coursesCard__content mt-30">
@@ -37,6 +45,27 @@ export default function LearningPathSix() {
             </div>
           ))}
         </div>
+
+        {/* <div className="row y-gap-30 justify-between pt-60 lg:pt-50">
+          {learningPathSix.map((elm, i) => (
+            <div key={i} className="col-lg-3 col-md-6">
+              <div className="coursesCard -type-3 px-0 text-center">
+                <div className="coursesCard__icon bg-white shadow-2">
+                  <i className={elm.iconClass}></i>
+                </div>
+
+                <div className="coursesCard__content mt-30">
+                  <h5 className="coursesCard__title text-18 lh-1 fw-500">
+                    {elm.title}
+                  </h5>
+                  <p className="coursesCard__text text-14 mt-10">
+                    {elm.description}
+                  </p>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div> */}
       </div>
     </section>
   );
