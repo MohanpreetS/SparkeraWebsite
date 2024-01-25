@@ -3954,17 +3954,46 @@ h6 {
   transition: 0.2s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 
+
+.coursesCard.-type-3 .coursesCard__icon {
+  position: relative;
+}
+
+.card-icon {
+  position: absolute;
+  opacity: 1;
+  transition: opacity 0.35s ease-in-out;
+}
+
+.white-icon {
+  opacity: 0;
+}
+
 .coursesCard.-type-3 .coursesCard__icon .icon {
-  transition: 0.2s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition: 0.35s ease-in-out;
 }
 
-.coursesCard.-type-3:hover .coursesCard__icon {
-  background-color: var(--color-purple-1) !important;
+/* .coursesCard.-type-3:hover .coursesCard__icon {
+  background-color: transparent;
+  background-image: linear-gradient(139deg, rgba(40, 177, 255, 1) 0%, rgba(180, 81, 255, 1) 63%, #e321ff 100%);
+} */
+
+.coursesCard__icon:hover {
+  background-color: transparent;
+  background-image: linear-gradient(139deg, rgba(40, 177, 255, 1) 0%, rgba(180, 81, 255, 1) 63%, #e321ff 100%);
 }
 
-.coursesCard.-type-3:hover .coursesCard__icon .icon {
+.coursesCard__icon:hover .white-icon {
+  opacity: 1;
+}
+
+.coursesCard__icon:hover .colored-icon {
+  opacity: 0;
+}
+
+/* .coursesCard.-type-3:hover .coursesCard__icon .icon {
   color: white !important;
-}
+} */
 
 .coursesCard.-type-4 {
   transition: all 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
@@ -6026,7 +6055,7 @@ h6 {
 
 .gradient-text {
   background-color: transparent;
-  background-image: linear-gradient(139deg, rgba(40, 177, 255, 1) 0%, rgba(180, 81, 255, 1) 63%, rgba(227, 33, 255, 1) 100%);
+  background-image: linear-gradient(139deg, rgba(40, 177, 255, 1) 0%, rgba(180, 81, 255, 1) 63%, #e321ff 100%);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;

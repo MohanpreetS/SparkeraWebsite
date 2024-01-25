@@ -27,9 +27,16 @@ export default function LearningPathSix() {
                   <Image
                     width={40}
                     height={40}
-                    fill="#000000"
+                    src="assets/img/homeIcons/brainGrad.svg"
+                    alt="icon"
+                    className="card-icon colored-icon"
+                  />
+                  <Image
+                    width={40}
+                    height={40}
                     src="assets/img/homeIcons/brain.svg"
                     alt="icon"
+                    className="card-icon white-icon"
                   />
                 </div>
 
