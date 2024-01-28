@@ -39,8 +39,18 @@ export default function FooterThree() {
           <div className="col-xl-4 col-lg-5 col-md-6">
             <div className="mt-30 pr-20">
               <div className="lh-17">
-                Unit 4, 2575 Steeles Ave E, Brampton, ON
-                sparkeracademy@gmail.com
+              <Image
+                            width={24}
+                            height={24}
+                            src="/assets/img/footer/icons8-location-100.png"
+                            alt="icon"
+                          /> Unit 4, 2575 Steeles Ave E, Brampton, ON <br/>
+                <Image
+                            width={24}
+                            height={24}
+                            src="/assets/img/footer/icons8-email-96.png"
+                            alt="icon"
+                          />{" "}sparkeracademy@gmail.com
               </div>
             </div>
           </div>
