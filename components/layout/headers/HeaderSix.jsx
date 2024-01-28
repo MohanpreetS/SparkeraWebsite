@@ -43,28 +43,22 @@ export default function HeaderSix() {
                   />
                 </Link>
               </div>
-
-              <Menu allClasses="menu__nav text-dark-1 -is-active" />
-              <MobileMenu
-                setActiveMobileMenu={setActiveMobileMenu}
-                activeMobileMenu={activeMobileMenu}
-              />
             </div>
           </div>
 
           <div className="col-auto">
-            <div className="header-right d-flex items-center"
-
-
-
-
-            >
+            <div className="header-right d-flex items-center">
               <div className="header-right__icons text-white d-flex items-center">
-                <SearchToggle color={"text-dark-1"} />
+                {/* <SearchToggle color={"text-dark-1"} />
                 <CartToggle
                   parentClassess={"relative pl-30 sm:pl-15"}
                   allClasses={"d-flex items-center text-dark-1"}
-                />
+                /> */}
+                <Menu allClasses="menu__nav text-dark-1 -is-active" />
+              <MobileMenu
+                setActiveMobileMenu={setActiveMobileMenu}
+                activeMobileMenu={activeMobileMenu}
+              />
 
                 <div className="d-none xl:d-block pl-30 sm:pl-15">
                   <button
@@ -77,7 +71,7 @@ export default function HeaderSix() {
                 </div>
               </div>
 
-              <div className="header-right__buttons d-flex items-center ml-30 xl:ml-20 lg:d-none">
+              {/* <div className="header-right__buttons d-flex items-center ml-30 xl:ml-20 lg:d-none">
                 <Link href="/login" className="button -underline text-dark-1">
                   Log in
                 </Link>
@@ -87,7 +81,7 @@ export default function HeaderSix() {
                 >
                   Sign up
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

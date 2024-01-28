@@ -51,7 +51,7 @@ export default function HeroSix() {
           />
         </div>
 
-        <div className="container"    >
+        <div className="container big-hor-pad"    >
           <div className="row y-gap-50 items-center justify-between">
             <div className="col-lg-6" data-aos="fade-up" data-aos-delay="500">
               <div className="masthead__content">
@@ -120,38 +120,16 @@ export default function HeroSix() {
 
             <div className="col-lg-6" data-aos="fade-up" data-aos-delay="750">
               <div className="composition -type-1 js-mouse-move-container">
-
-                <div className="-img-1">
-                  <Image
-                    width={255}
-                    height={250}
-                    className="js-mouse-move"
-                    data-move="40"
-                    src="/assets/img/home-6/hero/2.png"
-                    alt="image"
-                  />
-                </div>
                 <div className="-img-2">
                   <Image
-                    width={300}
-                    height={400}
+                    width={500}
+                    height={600}
                     className="js-mouse-move"
                     data-move="40"
                     src="/assets/img/home-6/hero/1.png"
                     alt="image"
                   />
                 </div>
-                <div className="-img-3">
-                  <Image
-                    width={200}
-                    height={200}
-                    className="js-mouse-move"
-                    data-move="40"
-                    src="/assets/img/home-6/hero/3.png"
-                    alt="image"
-                  />
-                </div>
-
                 {/* <div data-move="30" className="-el-1 md:d-none js-mouse-move">
                   <div className="img-el -w-250 px-20 py-20 d-flex items-center bg-white rounded-8">
                     <div className="size-50 d-flex justify-center items-center bg-red-2 rounded-full">

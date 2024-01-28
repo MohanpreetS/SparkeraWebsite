@@ -86,31 +86,35 @@ export const learningPathFive = [
 export const learningPathSix = [
   {
     id: 1,
-    iconClass: "icon icon-rating-2 text-dark-1",
-    title: "Learn anything",
+    colorIcon: "assets/img/homeIcons/ideaGrad.svg",
+    whiteIcon: "assets/img/homeIcons/idea.svg",
+    title: "Strengthen Foundations",
     description:
-      "The latest design trends meet hand-crafted templates in Sassio Collection.",
+      "Customized programs with daily worksheets designed to fortify foundational knowledge and bridge conceptual gaps.",
   },
   {
     id: 2,
-    iconClass: "icon icon-online-learning-3 text-dark-1",
-    title: "Learn together",
+    colorIcon: "assets/img/homeIcons/brainGrad.svg",
+    whiteIcon: "assets/img/homeIcons/brain.svg",
+    title: "Fast-Track Learning",
     description:
-      "The latest design trends meet hand-crafted templates in Sassio Collection.",
+      "Personalized instruction that accelerates learning and enhances engagement to optimize academic growth.",
   },
   {
     id: 3,
-    iconClass: "icon icon-online-learning-2 text-dark-1",
-    title: "Learn with experts",
+    colorIcon: "assets/img/homeIcons/nurtureGrad.svg",
+    whiteIcon: "assets/img/homeIcons/nurture.svg",
+    title: "Ongoing Educational Nurturing",
     description:
-      "The latest design trends meet hand-crafted templates in Sassio Collection.",
+      "A nurturing educational environment that supports sustained progessive learning through daily practice.",
   },
   {
     id: 4,
-    iconClass: "icon icon-access text-dark-1",
-    title: "Life Time Access",
+    colorIcon: "assets/img/homeIcons/ideaGrad.svg",
+    whiteIcon: "assets/img/homeIcons/idea.svg",
+    title: "Surpass Grade Level",
     description:
-      "The latest design trends meet hand-crafted templates in Sassio Collection.",
+      "Our approach doesn't just catch students up; it propels them beyond their grade level, exceeding expectations.",
   },
 ];
 

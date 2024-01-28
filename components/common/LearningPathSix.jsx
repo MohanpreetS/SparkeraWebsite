@@ -27,14 +27,14 @@ export default function LearningPathSix() {
                   <Image
                     width={40}
                     height={40}
-                    src="assets/img/homeIcons/ideaGrad.svg"
+                    src={elm.colorIcon}
                     alt="icon"
                     className="card-icon colored-icon"
                   />
                   <Image
                     width={40}
                     height={40}
-                    src="assets/img/homeIcons/idea.svg"
+                    src={elm.whiteIcon}
                     alt="icon"
                     className="card-icon white-icon"
                   />

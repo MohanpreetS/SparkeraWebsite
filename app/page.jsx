@@ -14,6 +14,8 @@ import BlogsTwo from "@/components/homes/blogs/BlogsTwo";
 import GetAppSix from "@/components/homes/getApp/GetAppSix";
 import FooterThree from "@/components/layout/footers/FooterThree";
 import Preloader from "@/components/common/Preloader";
+import HomeAbout from "@/components/about/HomeAbout";
+import HowWorks from "@/components/about/HowWorks";
 
 export const metadata = {
   title:
@@ -30,16 +32,8 @@ export default function page() {
       <div className="content-wrapper  js-content-wrapper overflow-hidden">
         <HeroSix />
         <LearningPathSix />
-        <CoursesSix />
-        <Teachers />
-        <CategoriesSix />
-        <TestimonialsSix />
-        <BrandsSix />
-        <LearningPathsSix />
-        <CountdownRegistration />
-        <EventsSix />
-        <BlogsTwo />
-        <GetAppSix />
+        <HomeAbout />
+        <HowWorks />
         <FooterThree />
       </div>
     </div>
