@@ -6397,6 +6397,83 @@ h6 {
   border-radius: 16px;
 }
 
+.page-header.-type-4 {
+  position: relative;
+  margin-top: 90px;
+  padding-top: 210px;
+  padding-bottom: 175px;
+}
+
+@media (max-width: 991px) {
+  .page-header.-type-4 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+
+@media (max-width: 767px) {
+  .page-header.-type-4 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+.page-header.-type-4 .page-header__title {
+  font-size: 40px;
+  line-height: 45px;
+}
+
+@media (max-width: 991px) {
+  .page-header.-type-4 .page-header__title {
+    font-size: 35px;
+    line-height: 40px;
+  }
+}
+
+.page-header.-type-4 .page-header__text {
+  font-size: 17px;
+  line-height: 36px;
+  margin-top: 5px;
+}
+
+@media (max-width: 991px) {
+  .page-header.-type-4 .page-header__text {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+}
+
+
+.contact-head {
+  position: relative;
+  z-index: 0;
+  padding-top: 180px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 175px;
+}
+
+.contact-head .masthead__bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.contact-head .masthead__bg img {
+  height: 100%;
+}
+
+@media (max-width: 767px) {
+  .contact-head .masthead__bg img {
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+}
+
+
 .stepCard.-type-1 {
   border-radius: 8px;
 }
