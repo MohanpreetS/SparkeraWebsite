@@ -3,6 +3,7 @@
 import React from "react";
 import { locationData } from "@/data/officeLocation";
 import Image from "next/image";
+import { contactData } from "@/data/contactLinks";
 
 export default function ContactTwo() {
   const handleSubmit = (e) => {
@@ -23,14 +24,14 @@ export default function ContactTwo() {
         <div className="container">
           <div className="page-header__content">
             <div className="row">
-              <div className="col-5">
+              <div className="col-5 col-md-12">
                 <div>
-                  <h1 className="page-header__title">Contact Us</h1>
+                  <h1 className="page-header__title contact-title">Contact Us</h1>
                 </div>
 
                 <div>
                   <p className="page-header__text">
-                    Contact us via email or phone during Monday-Thursday 10am-7pm, or Friday/Saturday 10am - 4pm.<br/>
+                    Contact us via email or phone: Monday-Thursday 10am-7pm, or Friday/Saturday 10am - 4pm.<br/>
                     Or send us a message here and we'll get back to you shortly.
                   </p>
                 </div>
@@ -44,23 +45,15 @@ export default function ContactTwo() {
         <div className="container">
           <div className="row y-gap-50 justify-between">
             <div className="col-xl-5 col-lg-6">
-              <h3 className="text-24 lh-1 fw-500">Our offices</h3>
-              <div className="row y-gap-30 pt-40">
-                {locationData.map((elm, i) => (
-                  <div key={i} className="col-sm-6">
-                    <div className="text-20 fw-500 text-dark-1">
-                      {elm.location}
+              <h3 className="text-24 lh-1 fw-500">Contact Info</h3>
+              <div className="y-gap-30 pt-60 lg:pt-40">
+                {contactData.map((elm, i) => (
+                  <div key={i} className="d-flex items-center">
+                    <div className="d-flex justify-center items-center size-60 rounded-full bg-light-7">
+                      <Image width={30} height={30} src={elm.icon} alt="icon" />
                     </div>
-                    <div className="y-gap-10 pt-15">
-                      <a href="#" className="d-block">
-                        {elm.address}
-                      </a>
-                      <a href="#" className="d-block">
-                        {elm.phoneNumber}
-                      </a>
-                      <a href="#" className="d-block">
-                        {elm.email}
-                      </a>
+                    <div className="ml-20">
+                      {elm.address || elm.email || elm.phoneNumber}
                     </div>
                   </div>
                 ))}

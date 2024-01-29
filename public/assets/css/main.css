@@ -7553,6 +7553,18 @@ h6 {
   }
 }
 
+/*mine*/
+.contact-title {
+  font-size: 40px;
+  line-height: 45px;
+}
+
+@media (max-width: 991px) {
+  .contact-title {
+    text-align: center;
+  }
+}
+
 .page-header.-type-4 .page-header__text {
   font-size: 17px;
   line-height: 36px;
