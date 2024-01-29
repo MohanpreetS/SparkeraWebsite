@@ -102,6 +102,17 @@ export default function ContactTwo() {
                   </div>
                   <div className="col-12">
                     <label className="text-16 lh-1 fw-500 text-dark-1 mb-10">
+                      Phone Number
+                    </label>
+                    <input
+                      required
+                      type="tel"
+                      name="title"
+                      placeholder="Phone Number"
+                    />
+                  </div>
+                  <div className="col-12">
+                    <label className="text-16 lh-1 fw-500 text-dark-1 mb-10">
                       Message...
                     </label>
                     <textarea
