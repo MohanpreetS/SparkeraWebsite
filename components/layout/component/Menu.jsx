@@ -83,6 +83,12 @@ export default function Menu({ allClasses, headerPosition }) {
               Home
             </Link></li>
 
+            <li><Link data-barba href="/math" className={
+              pathname == "#" ? "activeMenu" : "inActiveMenuTwo"
+            }>
+              Math
+            </Link></li>
+
             <li className="menu-item-has-children -has-mega-menu">
               <Link
                 data-barba

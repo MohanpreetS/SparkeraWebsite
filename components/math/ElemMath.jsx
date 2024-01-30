@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-export default function LearningPathsSix() {
+export default function ElemMath() {
   return (
     <section className="layout-pt-lg layout-pb-lg">
       {/* <div className="section-bg__item -full">
@@ -16,7 +16,7 @@ export default function LearningPathsSix() {
             <h3 className="text-45 md:text-30 lh-12">
               {/* <span className="text-purple-1">Learn</span> new skills when
               <br className="lg:d-none" /> and where you like. */}
-              How it works
+              Elementary School
             </h3>
             <p className="mt-20 subtext">
             Daily math and English worksheets take approximately 30 minutes to complete. Students attend classes twice a week at a Sparkera Center or online, and complete worksheets at home the other five days. What sets Sparkera apart is our commitment to individualized learning. Each child works at their own pace, ensuring they fully grasp each new Math and English concept before progressing. This personalized approach not only fosters a deeper understanding of the material but also builds a solid foundation for future learning.

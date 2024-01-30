@@ -24,7 +24,7 @@ export default function ContactTwo() {
         <div className="container">
           <div className="page-header__content">
             <div className="row">
-              <div className="col-5 col-md-12">
+              <div className="col-12 col-lg-6">
                 <div>
                   <h1 className="page-header__title contact-title">Contact Us</h1>
                 </div>

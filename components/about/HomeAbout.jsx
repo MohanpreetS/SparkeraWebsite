@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-export default function Teachers() {
+export default function HomeAbout() {
   return (
     <>
       <section className="section-bg layout-pt-lg layout-pb-sm bg-light-4">
