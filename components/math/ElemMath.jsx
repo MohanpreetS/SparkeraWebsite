@@ -16,15 +16,14 @@ export default function ElemMath() {
             <h3 className="text-45 md:text-30 lh-12">
               {/* <span className="text-purple-1">Learn</span> new skills when
               <br className="lg:d-none" /> and where you like. */}
-              Elementary School
+              Elementary
             </h3>
             <p className="mt-20 subtext">
-            Daily math and English worksheets take approximately 30 minutes to complete. Students attend classes twice a week at a Sparkera Center or online, and complete worksheets at home the other five days. What sets Sparkera apart is our commitment to individualized learning. Each child works at their own pace, ensuring they fully grasp each new Math and English concept before progressing. This personalized approach not only fosters a deeper understanding of the material but also builds a solid foundation for future learning.
-            As your child navigates their learning journey with Sparkera, you will see measurable improvements in their Math and English skills beyond their grade level. More importantly, you will witness a significant boost in their confidence as they master new concepts and overcome challenges. Sparkera is dedicated to helping every child reach their full potential, making learning a rewarding and empowering experience.
+            Our elementary math program is designed to build a strong foundational understanding of essential mathematical concepts through interactive methods as well as daily practice. Starting with counting, we use visual aids and hands-on activities to help students grasp the basics. As they progress, addition and subtraction are introduced through fun games and practical exercises, making abstract concepts more tangible. Multiplication and division are taught using visual representations and repetitive practice is used to reinforce times tables. Our approach ensures that students not only learn how to perform mathematical operations but also understand the underlying principles, fostering a love for math and preparing them for more advanced topics.
             </p>
             <div className="d-inline-block mt-30">
               <a href="#" className="button -md -dark-1 text-white">
-                Get Started
+              View Worksheets
               </a>
             </div>
           </div>

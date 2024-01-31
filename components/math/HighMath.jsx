@@ -19,12 +19,11 @@ export default function HighMath() {
               High School
             </h3>
             <p className="mt-20 subtext">
-            Daily math and English worksheets take approximately 30 minutes to complete. Students attend classes twice a week at a Sparkera Center or online, and complete worksheets at home the other five days. What sets Sparkera apart is our commitment to individualized learning. Each child works at their own pace, ensuring they fully grasp each new Math and English concept before progressing. This personalized approach not only fosters a deeper understanding of the material but also builds a solid foundation for future learning.
-            As your child navigates their learning journey with Sparkera, you will see measurable improvements in their Math and English skills beyond their grade level. More importantly, you will witness a significant boost in their confidence as they master new concepts and overcome challenges. Sparkera is dedicated to helping every child reach their full potential, making learning a rewarding and empowering experience.
+            Our high school math program equips students with a comprehensive understanding of advanced mathematical concepts through a focused and disciplined approach. Functions and Exponents are introduced with clear explanations and reinforced with daily worksheets to ensure a solid grasp. Statistics and Probability are covered through methodical practice exercises that build analytical skills. Surface Area and Volume are explored with 3D videos coupled with daily practice, aiding in visualization and comprehension. Trigonometry is taught with a blend of theoretical instruction and consistent practice to solidify understanding. Quadratics, Polynomials and Calculus, including Derivatives, are introduced in a detailed but easy-to-understand manner, emphasizing daily problem-solving to build proficiency. This rigorous approach prepares students for higher education and instills a deep and lasting understanding of complex mathematical topics.
             </p>
             <div className="d-inline-block mt-30">
               <a href="#" className="button -md -dark-1 text-white">
-                Get Started
+                View Worksheets
               </a>
             </div>
           </div>

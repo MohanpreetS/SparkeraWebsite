@@ -34,11 +34,11 @@ export default function MidMath() {
               Middle School
             </h3>
             <p className="mt-20 subtext">
-            Welcome to SparkEra! Founded in 2009 under the name StepUp, and later known as Matheng, we bring over 15 years of experience in providing exceptional Math and English education. At SparkEra, we believe in personalized learning, offering daily worksheets that allow students to learn at their own pace and master concepts beyond their grade level. Over the years, we have successfully taught over 2,000 students, with more than 1,000 of them surpassing their grade level in math and English. Our mission is to ignite a passion for learning and help each student reach their full potential.
+            Our middle school math program deepens mathematical understanding through engaging examples and visual aids. This knowledge is solidified through daily practice worksheets. Starting with fractions and decimals, we use daily-life examples and regular practice to solidify these foundational concepts. Once students grasp the basics, they progress to practicing integers and percentages. Ratios and proportions are reinforced with problem-solving exercises and word problems that promote analytical thinking. Geometry topics like angles, perimeter, and area are tackled with step-by-step practice problems to ensure mastery and understanding of the formula derivations rather than just memorization. Pre-algebra, including linear equations and inequalities, is introduced methodically, with a focus on daily practice to build confidence and proficiency. This systematic approach ensures that students develop a strong, lasting comprehension of essential math skills.
             </p>
             <div className="d-inline-block mt-30">
               <a href="#" className="button -md -dark-1 text-white">
-                Get Started
+              View Worksheets
               </a>
             </div>
             </div>

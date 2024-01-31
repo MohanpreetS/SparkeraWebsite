@@ -58,7 +58,7 @@ export default function MathHero() {
                   Spark your child's Curiosity
                 </h1> */}
                 <h1 className="masthead__title">
-                  <span className="concert gradient-text">Math</span>
+                  <span className="concert gradient-text">MATH</span>
                 </h1>
                 <h2 class="semi-title">Our comprehensive math curriculum for grades K-12 is designed to develop strong foundational skills and foster a deep understanding of mathematical concepts.</h2>
                 {/* <h1 className="masthead__title">
@@ -100,6 +100,7 @@ export default function MathHero() {
 
             <div className="col-lg-6" data-aos="fade-up" data-aos-delay="750">
               <div className="composition -type-1 js-mouse-move-container">
+              {/* <div className="composition -type-1 js-mouse-move-container"> */}
                 <div className="-img-2">
                   <Image
                     width={500}
@@ -110,81 +111,6 @@ export default function MathHero() {
                     alt="image"
                   />
                 </div>
-                {/* <div data-move="30" className="-el-1 md:d-none js-mouse-move">
-                  <div className="img-el -w-250 px-20 py-20 d-flex items-center bg-white rounded-8">
-                    <div className="size-50 d-flex justify-center items-center bg-red-2 rounded-full">
-                      <Image
-                        width={24}
-                        height={24}
-                        src="/assets/img/masthead/1.svg"
-                        alt="icon"
-                      />
-                    </div>
-                    <div className="ml-20">
-                      <div className="text-orange-1 text-16 fw-500 lh-1">
-                        3.000 +
-                      </div>
-                      <div className="mt-3">Free Courses</div>
-                    </div>
-                  </div>
-                </div> */}
-
-                {/* <div data-move="60" className="-el-2 md:d-none js-mouse-move">
-
-                  <div className="img-el -w-260 px-20 py-20 d-flex items-center bg-white rounded-8">
-                    <Image
-                      width={70}
-                      height={70}
-                      src="/assets/img/masthead/4.png"
-                      alt="icon"
-                    />
-                    <div className="ml-20">
-                      <div className="text-dark-1 text-16 fw-500 lh-1">
-                        Ali Tufan
-                      </div>
-                      <div className="mt-3">UX/UI Designer</div>
-                      <div className="d-flex x-gap-5 mt-3">
-                        <div>
-                          <div className="icon-star text-yellow-1 text-11"></div>
-                        </div>
-                        <div>
-                          <div className="icon-star text-yellow-1 text-11"></div>
-                        </div>
-                        <div>
-                          <div className="icon-star text-yellow-1 text-11"></div>
-                        </div>
-                        <div>
-                          <div className="icon-star text-yellow-1 text-11"></div>
-                        </div>
-                        <div>
-                          <div className="icon-star text-yellow-1 text-11"></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div> */}
-
-                {/* <div data-move="30" className="-el-3 md:d-none js-mouse-move">
-                  <div className="img-el px-40 py-20 shadow-4 d-flex items-center bg-white rounded-8">
-                    <div className="img-el__side">
-                      <div className="size-50 d-flex justify-center items-center bg-purple-1 rounded-full">
-                        <Image
-                          width={20}
-                          height={27}
-                          src="/assets/img/masthead/2.svg"
-                          alt="icon"
-                        />
-                      </div>
-                    </div>
-                    <div className="">
-                      <div className="text-purple-1 text-16 fw-500 lh-1">
-                        Congrats!
-                      </div>
-                      <div className="mt-3">Your Admission Completed</div>
-                    </div>
-
-                  </div>
-                </div> */}
               </div>
             </div>
           </div>
