@@ -10,7 +10,7 @@ export default function LearningPathsSix() {
           ></div>
         </div> */}
 
-        <div className="container">
+      <div className="container">
         <div className="row y-gap-30 justify-between items-center">
           <div className="col-xl-5 col-lg-6 col-md-9 lg:order-2">
             <h3 className="text-45 md:text-30 lh-12">
@@ -19,8 +19,8 @@ export default function LearningPathsSix() {
               How it works
             </h3>
             <p className="mt-20 subtext">
-            Daily math and English worksheets take approximately 30 minutes to complete. Students attend classes twice a week at a Sparkera Center or online, and complete worksheets at home the other five days. What sets Sparkera apart is our commitment to individualized learning. Each child works at their own pace, ensuring they fully grasp each new Math and English concept before progressing. This personalized approach not only fosters a deeper understanding of the material but also builds a solid foundation for future learning.
-            As your child navigates their learning journey with Sparkera, you will see measurable improvements in their Math and English skills beyond their grade level. More importantly, you will witness a significant boost in their confidence as they master new concepts and overcome challenges. Sparkera is dedicated to helping every child reach their full potential, making learning a rewarding and empowering experience.
+              Daily math and English worksheets take approximately 30 minutes to complete. Students attend classes twice a week at a Sparkera Center or online, and complete worksheets at home the other five days. What sets Sparkera apart is our commitment to individualized learning. Each child works at their own pace, ensuring they fully grasp each new Math and English concept before progressing. This personalized approach not only fosters a deeper understanding of the material but also builds a solid foundation for future learning.
+              As your child navigates their learning journey with Sparkera, you will see measurable improvements in their Math and English skills beyond their grade level. More importantly, you will witness a significant boost in their confidence as they master new concepts and overcome challenges. Sparkera is dedicated to helping every child reach their full potential, making learning a rewarding and empowering experience.
             </p>
             <div className="d-inline-block mt-30">
               <a href="#" className="button -md -dark-1 text-white">
@@ -30,19 +30,19 @@ export default function LearningPathsSix() {
           </div>
 
           <div className="col-lg-6 lg:order-1">
-              <div className="-el-2 r-img">
-                <Image
-                  width={400}
-                  height={600}
-                  style={{ width: "100%", height: "100%" }}
-                  className="w-1/1"
-                  src="/assets/img/home-6/learn/1.png"
-                  alt="image"
-                />
-              </div>
+            <div className="-el-2 r-img">
+              <Image
+                width={400}
+                height={600}
+                style={{ width: "100%", height: "100%" }}
+                className="w-1/1"
+                src="assets\img\premium\studentExam.jpg"
+                alt="image"
+              />
             </div>
           </div>
         </div>
+      </div>
     </section>
   );
 }

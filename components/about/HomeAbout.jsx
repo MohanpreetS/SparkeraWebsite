@@ -12,35 +12,35 @@ export default function HomeAbout() {
         </div>
 
         <div className="container">
-        <div className="row y-gap-30 justify-between items-center">
-          <div className="col-xl-5 col-lg-6 col-md-9 lg:order-2">
-          <div className="-el-2">
+          <div className="row y-gap-30 justify-between items-center">
+            <div className="col-xl-5 col-lg-6 col-md-9 lg:order-2">
+              <div className="-el-2">
                 <Image
                   width={500}
                   height={600}
                   style={{ width: "100%", height: "100%" }}
                   className="w-1/1"
-                  src="/assets/img/home-6/learn/1.png"
+                  src="/assets/img/premium/teacherYoungGirl.jpg"
                   alt="image"
                 />
               </div>
-            
-          </div>
 
-          <div className="col-lg-6 lg:order-1">
-          <h3 className="text-45 md:text-30 lh-12">
-              {/* <span className="text-purple-1">Learn</span> new skills when
-              <br className="lg:d-none" /> and where you like. */}
-              About Us
-            </h3>
-            <p className="mt-20 subtext">
-            Welcome to SparkEra! Founded in 2009 under the name StepUp, and later known as Matheng, we bring over 15 years of experience in providing exceptional Math and English education. At SparkEra, we believe in personalized learning, offering daily worksheets that allow students to learn at their own pace and master concepts beyond their grade level. Over the years, we have successfully taught over 2,000 students, with more than 1,000 of them surpassing their grade level in math and English. Our mission is to ignite a passion for learning and help each student reach their full potential.
-            </p>
-            <div className="d-inline-block mt-30">
-              <a href="#" className="button -md -dark-1 text-white">
-                Get Started
-              </a>
             </div>
+
+            <div className="col-lg-6 lg:order-1">
+              <h3 className="text-45 md:text-30 lh-12">
+                {/* <span className="text-purple-1">Learn</span> new skills when
+              <br className="lg:d-none" /> and where you like. */}
+                About Us
+              </h3>
+              <p className="mt-20 subtext">
+                Welcome to SparkEra! Founded in 2009 under the name StepUp, and later known as Matheng, we bring over 15 years of experience in providing exceptional Math and English education. At SparkEra, we believe in personalized learning, offering daily worksheets that allow students to learn at their own pace and master concepts beyond their grade level. Over the years, we have successfully taught over 2,000 students, with more than 1,000 of them surpassing their grade level in math and English. Our mission is to ignite a passion for learning and help each student reach their full potential.
+              </p>
+              <div className="d-inline-block mt-30">
+                <a href="#" className="button -md -dark-1 text-white">
+                  Get Started
+                </a>
+              </div>
             </div>
           </div>
         </div>

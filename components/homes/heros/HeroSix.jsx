@@ -126,7 +126,7 @@ export default function HeroSix() {
                     height={600}
                     className="js-mouse-move"
                     data-move="40"
-                    src="/assets/img/home-6/hero/1.png"
+                    src="/assets/img/premium/smilingTeacher.jpg"
                     alt="image"
                   />
                 </div>
