@@ -32,11 +32,11 @@ export default function LearningPathsSix() {
           <div className="col-lg-6 lg:order-1">
             <div className="-el-2 r-img">
               <Image
-                width={400}
+                width={600}
                 height={600}
                 style={{ width: "100%", height: "100%" }}
-                className="w-1/1"
-                src="assets\img\premium\studentExam.jpg"
+                className="w-1/1 rounded-image20"
+                src="/assets/img/premium/elemHomeChild.jpg"
                 alt="image"
               />
             </div>

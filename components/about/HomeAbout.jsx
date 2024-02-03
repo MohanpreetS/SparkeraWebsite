@@ -16,11 +16,11 @@ export default function HomeAbout() {
             <div className="col-xl-5 col-lg-6 col-md-9 lg:order-2">
               <div className="-el-2">
                 <Image
-                  width={500}
+                  width={600}
                   height={600}
                   style={{ width: "100%", height: "100%" }}
-                  className="w-1/1"
-                  src="/assets/img/premium/teacherYoungGirl.jpg"
+                  className="w-1/1 rounded-image20"
+                  src="/assets/img/premium/elemHomeChild.jpg"
                   alt="image"
                 />
               </div>

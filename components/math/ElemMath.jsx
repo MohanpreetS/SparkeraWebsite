@@ -10,7 +10,7 @@ export default function ElemMath() {
           ></div>
         </div> */}
 
-        <div className="container">
+      <div className="container">
         <div className="row y-gap-30 justify-between items-center">
           <div className="col-xl-5 col-lg-6 col-md-9 lg:order-2">
             <h3 className="text-45 md:text-30 lh-12">
@@ -19,29 +19,29 @@ export default function ElemMath() {
               Elementary
             </h3>
             <p className="mt-20 subtext">
-            Our elementary math program is designed to build a strong foundational understanding of essential mathematical concepts through interactive methods as well as daily practice. Starting with counting, we use visual aids and hands-on activities to help students grasp the basics. As they progress, addition and subtraction are introduced through fun games and practical exercises, making abstract concepts more tangible. Multiplication and division are taught using visual representations and repetitive practice is used to reinforce times tables. Our approach ensures that students not only learn how to perform mathematical operations but also understand the underlying principles, fostering a love for math and preparing them for more advanced topics.
+              Our elementary math program is designed to build a strong foundational understanding of essential mathematical concepts through interactive methods as well as daily practice. Starting with counting, we use visual aids and hands-on activities to help students grasp the basics. As they progress, addition and subtraction are introduced through fun games and practical exercises, making abstract concepts more tangible. Multiplication and division are taught using visual representations and repetitive practice is used to reinforce times tables. Our approach ensures that students not only learn how to perform mathematical operations but also understand the underlying principles, fostering a love for math and preparing them for more advanced topics.
             </p>
             <div className="d-inline-block mt-30">
               <a href="#" className="button -md -dark-1 text-white">
-              View Worksheets
+                View Worksheets
               </a>
             </div>
           </div>
 
           <div className="col-lg-6 lg:order-1">
-              <div className="-el-2 r-img">
-                <Image
-                  width={400}
-                  height={600}
-                  style={{ width: "100%", height: "100%" }}
-                  className="w-1/1"
-                  src="/assets/img/home-6/learn/1.png"
-                  alt="image"
-                />
-              </div>
+            <div className="-el-2 r-img">
+              <Image
+                width={400}
+                height={600}
+                style={{ width: "100%", height: "100%" }}
+                className="w-1/1 rounded-image20"
+                src="/assets/img/premium/handUpElementary.jpg"
+                alt="image"
+              />
             </div>
           </div>
         </div>
+      </div>
     </section>
   );
 }

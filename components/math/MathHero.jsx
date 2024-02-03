@@ -99,15 +99,15 @@ export default function MathHero() {
             </div>
 
             <div className="col-lg-6" data-aos="fade-up" data-aos-delay="750">
-              <div className="composition -type-1 js-mouse-move-container">
-              {/* <div className="composition -type-1 js-mouse-move-container"> */}
+              <div className="composition -type-1">
+                {/* <div className="composition -type-1 js-mouse-move-container"> */}
                 <div className="-img-2">
                   <Image
                     width={500}
                     height={400}
-                    className="js-mouse-move"
+                    className="js-mouse-move rounded-image20"
                     data-move="40"
-                    src="/assets/img/blog/1.png"
+                    src="/assets/img/premium/mathCover.jpg"
                     alt="image"
                   />
                 </div>
