@@ -2,6 +2,7 @@ import Faq from '@/components/common/Faq'
 import Preloader from '@/components/common/Preloader'
 
 import Contact from '@/components/contacts/Contact'
+import EngHero from '@/components/english/EngHero'
 
 import FooterOne from '@/components/layout/footers/FooterOne'
 import FooterThree from '@/components/layout/footers/FooterThree'
@@ -9,7 +10,6 @@ import Header from '@/components/layout/headers/Header'
 import HeaderSix from '@/components/layout/headers/HeaderSix'
 import ElemMath from '@/components/math/ElemMath'
 import HighMath from '@/components/math/HighMath'
-import MathHero from '@/components/math/MathHero'
 import MidMath from '@/components/math/MidMath'
 import React from 'react'
 export const metadata = {
@@ -26,7 +26,7 @@ export default function page() {
 
             <HeaderSix />
             <div className="content-wrapper js-content-wrapper overflow-hidden">
-                <MathHero />
+                <EngHero />
                 <ElemMath />
                 <MidMath />
                 <HighMath />

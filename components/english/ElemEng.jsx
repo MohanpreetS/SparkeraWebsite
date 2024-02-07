@@ -19,7 +19,9 @@ export default function ElemMath() {
               Elementary
             </h3>
             <p className="mt-20 subtext">
-              Our elementary math program is designed to build a strong foundational understanding of essential mathematical concepts through interactive methods as well as daily practice. Starting with counting, we use visual aids and hands-on activities to help students grasp the basics. As they progress, addition and subtraction are introduced through fun games and practical exercises, making abstract concepts more tangible. Multiplication and division are taught using visual representations and repetitive practice is used to reinforce times tables. Our approach ensures that students not only learn how to perform mathematical operations but also understand the underlying principles, fostering a love for math and preparing them for more advanced topics.
+              Sparkera helps your child develop auditory comprehension of English words and expressions.
+              In the first levels of the program, your child will develop a clear and defined pronunciation through daily practice. In this stage, the students listen to the words in English and practice imitating them. Following this practice in a consistent way helps students develop their enunciation and pronunciation.
+
             </p>
             <div className="d-inline-block mt-30">
               <a href="#" className="button -md -dark-1 text-white">

@@ -5,7 +5,7 @@ import Image from "next/image";
 import ModalVideo from "@/components/common/ModalVideo";
 import gsap from "gsap";
 import Link from "next/link";
-export default function MathHero() {
+export default function EngHero() {
   const [isOpen, setIsOpen] = useState(false);
   useEffect(() => {
     const parallaxIt = () => {
@@ -58,9 +58,9 @@ export default function MathHero() {
                   Spark your child's Curiosity
                 </h1> */}
                 <h1 className="masthead__title">
-                  <span className="concert gradient-text">MATH</span>
+                  <span className="concert gradient-text">ENGLISH</span>
                 </h1>
-                <h2 class="semi-title">Our comprehensive math curriculum for grades K-12 is designed to develop strong foundational skills and foster a deep understanding of mathematical concepts.</h2>
+                <h2 class="semi-title">Our extensive English curriculum allows your child to develop their reading and writing skills, offering them a lifetime of academic advantages.</h2>
                 {/* <h1 className="masthead__title">
                   More Than{" "}
                   <span className="text-purple-1 underline">3.500+</span>{" "}
@@ -107,7 +107,7 @@ export default function MathHero() {
                     height={400}
                     className="js-mouse-move rounded-image20"
                     data-move="40"
-                    src="/assets/img/premium/mathCover.jpg"
+                    src="/assets/img/premium/englishCover.jpg"
                     alt="image"
                   />
                 </div>
