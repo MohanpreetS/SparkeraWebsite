@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-export default function HighMath() {
+export default function HighEng() {
   return (
     <section className="layout-pt-lg layout-pb-lg">
       {/* <div className="section-bg__item -full">
@@ -19,7 +19,7 @@ export default function HighMath() {
               High School
             </h3>
             <p className="mt-20 subtext">
-              Our high school math program equips students with a comprehensive understanding of advanced mathematical concepts through a focused and disciplined approach. Functions and Exponents are introduced with clear explanations and reinforced with daily worksheets to ensure a solid grasp. Statistics and Probability are covered through methodical practice exercises that build analytical skills. Surface Area and Volume are explored with 3D videos coupled with daily practice, aiding in visualization and comprehension. Trigonometry is taught with a blend of theoretical instruction and consistent practice to solidify understanding. Quadratics, Polynomials and Calculus, including Derivatives, are introduced in a detailed but easy-to-understand manner, emphasizing daily problem-solving to build proficiency. This rigorous approach prepares students for higher education and instills a deep and lasting understanding of complex mathematical topics.
+              SparkEra refines students' analytical, reading, and writing skills through a rigorous and comprehensive curriculum. Advanced grammar and vocabulary are taught through detailed lessons and reinforced with daily practice worksheets. Students engage with a wide range of literature, including short stories, classics and contemporary works, to enhance their reading comprehension and critical analysis abilities. Writing instruction focuses on developing proficiency in various forms, such as analytical essays, research papers, and creative writing, with regular assignments designed to improve clarity and coherence. Additionally, our program emphasizes critical thinking and discussion, encouraging students to explore and debate themes, motifs, and literary techniques. This approach not only prepares students for college-level English but also instills a deep appreciation for literature and effective communication.
             </p>
             <div className="d-inline-block mt-30">
               <a href="#" className="button -md -dark-1 text-white">

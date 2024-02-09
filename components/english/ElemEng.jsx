@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-export default function ElemMath() {
+export default function ElemEng() {
   return (
     <section className="layout-pt-lg layout-pb-lg">
       {/* <div className="section-bg__item -full">
@@ -19,9 +19,9 @@ export default function ElemMath() {
               Elementary
             </h3>
             <p className="mt-20 subtext">
-              Sparkera helps your child develop auditory comprehension of English words and expressions.
+              SparkEra helps your child develop auditory comprehension of English words and expressions.
               In the first levels of the program, your child will develop a clear and defined pronunciation through daily practice. In this stage, the students listen to the words in English and practice imitating them. Following this practice in a consistent way helps students develop their enunciation and pronunciation.
-
+              As they progress, we introduce more complex vocabulary and sentence structures through storybooks and creative writing exercises. Daily practice worksheets reinforce these concepts, helping students to develop strong literacy skills. Additionally, our program emphasizes comprehension and critical thinking by encouraging discussions about stories and texts. This comprehensive approach ensures that students not only learn to read and write effectively but also develop a lasting appreciation for the English language.
             </p>
             <div className="d-inline-block mt-30">
               <a href="#" className="button -md -dark-1 text-white">

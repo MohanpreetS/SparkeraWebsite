@@ -2,7 +2,10 @@ import Faq from '@/components/common/Faq'
 import Preloader from '@/components/common/Preloader'
 
 import Contact from '@/components/contacts/Contact'
+import ElemEng from '@/components/english/ElemEng'
 import EngHero from '@/components/english/EngHero'
+import HighEng from '@/components/english/HighEng'
+import MidEng from '@/components/english/MidEng'
 
 import FooterOne from '@/components/layout/footers/FooterOne'
 import FooterThree from '@/components/layout/footers/FooterThree'
@@ -27,9 +30,9 @@ export default function page() {
             <HeaderSix />
             <div className="content-wrapper js-content-wrapper overflow-hidden">
                 <EngHero />
-                <ElemMath />
-                <MidMath />
-                <HighMath />
+                <ElemEng />
+                <MidEng />
+                <HighEng />
                 <FooterThree />
             </div>
 

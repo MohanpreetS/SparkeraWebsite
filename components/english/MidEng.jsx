@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-export default function MidMath() {
+export default function MidEng() {
   return (
     <>
       <section className="section-bg layout-pt-lg layout-pb-sm bg-light-4">
@@ -34,7 +34,7 @@ export default function MidMath() {
                 Middle School
               </h3>
               <p className="mt-20 subtext">
-                Our middle school math program deepens mathematical understanding through engaging examples and visual aids. This knowledge is solidified through daily practice worksheets. Starting with fractions and decimals, we use daily-life examples and regular practice to solidify these foundational concepts. Once students grasp the basics, they progress to practicing integers and percentages. Ratios and proportions are reinforced with problem-solving exercises and word problems that promote analytical thinking. Geometry topics like angles, perimeter, and area are tackled with step-by-step practice problems to ensure mastery and understanding of the formula derivations rather than just memorization. Pre-algebra, including linear equations and inequalities, is introduced methodically, with a focus on daily practice to build confidence and proficiency. This systematic approach ensures that students develop a strong, lasting comprehension of essential math skills.
+                Our English program is designed to deepen students' literacy skills and foster critical thinking through a structured and engaging curriculum. Students explore more complex grammatical concepts and vocabulary, building on their elementary foundation with daily practice worksheets that reinforce these skills. Reading comprehension is enhanced through a diverse selection of texts, including excerpts novels, short stories, and non-fiction, encouraging students to analyze and interpret various literary elements. Writing skills are honed through regular assignments that cover different genres, such as persuasive essays, narratives, and letters/emails. By integrating literature discussions and creative projects, our program aims to develop students' ability to express themselves clearly and thoughtfully, preparing them for the challenges of high school English and beyond.
               </p>
               <div className="d-inline-block mt-30">
                 <a href="#" className="button -md -dark-1 text-white">
