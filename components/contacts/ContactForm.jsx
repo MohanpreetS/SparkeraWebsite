@@ -7,7 +7,7 @@ export default function ContactForm() {
     const [message, setMessage] = useState('');
 
 
-    const handleSubmit = () => {
+    const handleSubmit = (e) => {
         e.preventDefault();
 
         if (name === "" || email === "" || phone === "") {
@@ -21,7 +21,7 @@ export default function ContactForm() {
             message: message,
         };
 
-        //console.log(msg);
+        console.log(msg);
 
         fetch('https://matheng-server-97f213847229.herokuapp.com/spark', {
             method: 'POST',
@@ -32,12 +32,12 @@ export default function ContactForm() {
                 'Access-Control-Allow-Methods': 'POST,PATCH,OPTIONS'
             },
             body: JSON.stringify(msg)
-        })
+        }).then(res => res.json()).then(data => { console.log(data); })
 
-        setName("")
-        setPhone("")
-        setEmail("")
-        setMessage("")
+        // setName("")
+        // setPhone("")
+        // setEmail("")
+        // setMessage("")
     }
 
     return (
