@@ -62,7 +62,7 @@ export default function HeroSix() {
                   <span className="concert gradient-text">Spark</span>{" "}Your <br></br>
                   Child's <span className="concert gradient-text">Curiosity</span>
                 </h1>
-                <h2 class="semi-title"><span className="text-purple-1">Math</span> and <span className="text-purple-1">English</span> Worksheet Based Program</h2>
+                <h2 className="semi-title"><span className="text-purple-1">Math</span> and <span className="text-purple-1">English</span> Worksheet Based Program</h2>
                 {/* <h1 className="masthead__title">
                   More Than{" "}
                   <span className="text-purple-1 underline">3.500+</span>{" "}
