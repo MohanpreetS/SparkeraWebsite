@@ -15,6 +15,8 @@ export default function MobileMenu({ setActiveMobileMenu, activeMobileMenu }) {
   const [menuItem, setMenuItem] = useState("");
   const [submenu, setSubmenu] = useState("");
 
+  const homeLink = "/"
+
   useEffect(() => {
     menuList.forEach((elm) => {
       elm?.links?.forEach((elm2) => {
@@ -37,38 +39,84 @@ export default function MobileMenu({ setActiveMobileMenu, activeMobileMenu }) {
   const pathname = usePathname();
   return (
     <div
-      className={`header-menu js-mobile-menu-toggle ${
-        activeMobileMenu ? "-is-el-visible" : ""
-      }`}
+      className={`header-menu js-mobile-menu-toggle ${activeMobileMenu ? "-is-el-visible" : ""
+        }`}
     >
       <div className="header-menu__content">
         <div className="mobile-bg js-mobile-bg"></div>
 
         <div className="d-none xl:d-flex items-center px-20 py-20 border-bottom-light">
-          <Link
-            href="/login"
-            className={`text-dark-1 ${
-              pathname == "/login" ? "activeMenu" : "inActiveMenu"
-            } `}
-          >
-            Log in
-          </Link>
-          <Link
-            href="/signup"
-            className={`text-dark-1 ml-30 ${
-              pathname == "/signup" ? "activeMenu" : "inActiveMenu"
-            } `}
-          >
-            Sign Up
+          <Link href="/">
+            <Image
+              width={140}
+              height={50}
+              src="/assets/img/general/logoNameDark.png"
+              alt="logo"
+            />
           </Link>
         </div>
-
         {showMenu && activeMobileMenu && (
+          <div className="mobileMenu text-dark-1">
+            <div className="title text-dark-1">
+              <Link
+                key={0}
+                className={
+                  pathname?.split('/')[1] == homeLink?.split('/')[1]
+                    ? "activeMenu link"
+                    : "link inActiveMenu"
+                }
+                href={homeLink}
+              >
+                Home
+              </Link>
+            </div>
+          </div>
+        )}
+
+        {/* mobile footer start */}
+        <MobileFooter />
+        {/* mobile footer end */}
+      </div>
+
+      <div
+        className="header-menu-close"
+        onClick={() => {
+          setActiveMobileMenu(false);
+        }}
+        data-el-toggle=".js-mobile-menu-toggle"
+      >
+        <div className="size-40 d-flex items-center justify-center rounded-full bg-white">
+          <div className="icon-close text-dark-1 text-16"></div>
+        </div>
+      </div>
+
+      <div
+        className="header-menu-bg"
+        onClick={() => setActiveMobileMenu(false)}
+      ></div>
+    </div>
+  );
+}
+
+
+{/* {showMenu && activeMobileMenu && (
           <div className="mobileMenu text-dark-1">
             {menuList.map((elm, i) => {
               if (elm.title) {
                 return (
-                  <div key={i} className="submenuOne">
+                  <div key={i} className="title">
+                    <Link
+                      key={i}
+                      className={
+                        pathname?.split('/')[1] == homeLink?.split('/')[1]
+                          ? "activeMenu link"
+                          : "link inActiveMenu"
+                      }
+                      href='/'
+                    >
+                      Home
+                    </Link>
+                  </div>
                     <div
                       className="title"
                       onClick={() =>
@@ -177,29 +225,4 @@ export default function MobileMenu({ setActiveMobileMenu, activeMobileMenu }) {
               }
             })}
           </div>
-        )}
-
-        {/* mobile footer start */}
-        <MobileFooter />
-        {/* mobile footer end */}
-      </div>
-
-      <div
-        className="header-menu-close"
-        onClick={() => {
-          setActiveMobileMenu(false);
-        }}
-        data-el-toggle=".js-mobile-menu-toggle"
-      >
-        <div className="size-40 d-flex items-center justify-center rounded-full bg-white">
-          <div className="icon-close text-dark-1 text-16"></div>
-        </div>
-      </div>
-
-      <div
-        className="header-menu-bg"
-        onClick={() => setActiveMobileMenu(false)}
-      ></div>
-    </div>
-  );
-}
+        )} */}
