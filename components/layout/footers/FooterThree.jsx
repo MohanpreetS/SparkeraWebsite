@@ -17,15 +17,15 @@ export default function FooterThree() {
                 src="/assets/img/general/logoNameDark.png"
                 alt="logo"
               />
-               <div className="footer-header-socials">
-              <div className="footer-header-socials__list d-flex items-center">
+              <div className="footer-header-socials">
+                {/* <div className="footer-header-socials__list d-flex items-center">
                 <Socials
                   componentsClass={
                     "size-40 d-flex justify-center items-center "
                   }
                 />
+              </div> */}
               </div>
-            </div>
             </div>
           </div>
           <div className="col-xl-4 col-lg-5 col-md-6">
@@ -39,18 +39,18 @@ export default function FooterThree() {
           <div className="col-xl-4 col-lg-5 col-md-6">
             <div className="mt-30 pr-20">
               <div className="lh-17">
-              <Image
-                            width={24}
-                            height={24}
-                            src="/assets/img/footer/icons8-location-100.png"
-                            alt="icon"
-                          /> Unit 4, 2575 Steeles Ave E, Brampton, ON <br/>
                 <Image
-                            width={24}
-                            height={24}
-                            src="/assets/img/footer/icons8-email-96.png"
-                            alt="icon"
-                          />{" "}sparkeracademy@gmail.com
+                  width={24}
+                  height={24}
+                  src="/assets/img/footer/icons8-location-100.png"
+                  alt="icon"
+                /> Unit 4, 2575 Steeles Ave E, Brampton, ON <br />
+                <Image
+                  width={24}
+                  height={24}
+                  src="/assets/img/footer/icons8-email-96.png"
+                  alt="icon"
+                />{" "}sparkeracademy@gmail.com
               </div>
             </div>
           </div>

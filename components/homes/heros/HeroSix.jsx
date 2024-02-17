@@ -6,6 +6,7 @@ import { featureSix } from "../../../data/features";
 import ModalVideo from "@/components/common/ModalVideo";
 import gsap from "gsap";
 import Link from "next/link";
+import GetStarted from "@/components/common/GetStarted";
 export default function HeroSix() {
   const [isOpen, setIsOpen] = useState(false);
   useEffect(() => {
@@ -59,7 +60,7 @@ export default function HeroSix() {
                   Spark your child's Curiosity
                 </h1> */}
                 <h1 className="masthead__title">
-                  <span className="concert gradient-text">Spark</span>{" "}Your <br></br>
+                  <span className="concert gradient-text">Spark</span>{" "}Your <br />
                   Child's <span className="concert gradient-text">Curiosity</span>
                 </h1>
                 <h2 className="semi-title"><span className="text-purple-1">Math</span> and <span className="text-purple-1">English</span> Worksheet Based Program</h2>
@@ -71,14 +72,15 @@ export default function HeroSix() {
                 </h1> */}
 
                 <div className="row items-center x-gap-30 y-gap-20 pt-30">
-                  <div className="col-auto">
+                  {/* <div className="col-auto">
                     <Link
-                      href="/courses-list-1"
+                      href="/contact"
                       className="button -md -dark-1 -rounded text-white"
                     >
                       Get Started
                     </Link>
-                  </div>
+                  </div> */}
+                  <GetStarted />
                   {/* 
                   <div
                     className="col-auto"

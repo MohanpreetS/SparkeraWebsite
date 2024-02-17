@@ -16,6 +16,10 @@ export default function MobileMenu({ setActiveMobileMenu, activeMobileMenu }) {
   const [submenu, setSubmenu] = useState("");
 
   const homeLink = "/"
+  const mathLink = "/math"
+  const englishLink = "/english"
+  const contactLink = "/contact"
+
 
   useEffect(() => {
     menuList.forEach((elm) => {
@@ -45,7 +49,7 @@ export default function MobileMenu({ setActiveMobileMenu, activeMobileMenu }) {
       <div className="header-menu__content">
         <div className="mobile-bg js-mobile-bg"></div>
 
-        <div className="d-none xl:d-flex items-center px-20 py-20 border-bottom-light">
+        <div className="d-none xl:d-flex justify-center items-center px-20 py-20 border-bottom-light">
           <Link href="/">
             <Image
               width={140}
@@ -56,21 +60,53 @@ export default function MobileMenu({ setActiveMobileMenu, activeMobileMenu }) {
           </Link>
         </div>
         {showMenu && activeMobileMenu && (
-          <div className="mobileMenu text-dark-1">
-            <div className="title text-dark-1">
+          <div className="mobileMenu">
+            <div className="mobile-menu-tile">
               <Link
                 key={0}
                 className={
-                  pathname?.split('/')[1] == homeLink?.split('/')[1]
-                    ? "activeMenu link"
-                    : "link inActiveMenu"
+                  "mobile-menu-text gradiant-text"
                 }
                 href={homeLink}
               >
                 Home
               </Link>
             </div>
+            <div className="mobile-menu-tile">
+              <Link
+                key={0}
+                className={
+                  "mobile-menu-text gradiant-text"
+                }
+                href={mathLink}
+              >
+                Math
+              </Link>
+            </div>
+            <div className="mobile-menu-tile">
+              <Link
+                key={0}
+                className={
+                  "mobile-menu-text gradiant-text"
+                }
+                href={englishLink}
+              >
+                English
+              </Link>
+            </div>
+            <div className="mobile-menu-tile">
+              <Link
+                key={0}
+                className={
+                  "mobile-menu-text gradiant-text"
+                }
+                href={contactLink}
+              >
+                Contact
+              </Link>
+            </div>
           </div>
+
         )}
 
         {/* mobile footer start */}

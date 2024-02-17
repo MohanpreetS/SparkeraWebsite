@@ -3,6 +3,7 @@
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import ModalVideo from "@/components/common/ModalVideo";
+import GetStarted from "@/components/common/GetStarted";
 import gsap from "gsap";
 import Link from "next/link";
 export default function EngHero() {
@@ -69,14 +70,7 @@ export default function EngHero() {
                 </h1> */}
 
                 <div className="row items-center x-gap-30 y-gap-20 pt-30">
-                  <div className="col-auto">
-                    <Link
-                      href="/courses-list-1"
-                      className="button -md -dark-1 -rounded text-white"
-                    >
-                      Get Started
-                    </Link>
-                  </div>
+                  <GetStarted />
                   {/* 
                   <div
                     className="col-auto"

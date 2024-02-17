@@ -15,10 +15,6 @@ export default function Faq() {
               <h2 className="sectionTitle__title ">
                 Frequently Asked Questions.
               </h2>
-
-              <p className="sectionTitle__text ">
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco
-              </p>
             </div>
 
             <div className="accordion -block text-left pt-60 lg:pt-40 js-accordion">
@@ -28,9 +24,8 @@ export default function Faq() {
                     setActiveFaq((pre) => (pre == elm.id ? 0 : elm.id))
                   }
                   key={i}
-                  className={`accordion__item  ${
-                    activeFaq == elm.id ? "is-active" : ""
-                  }`}
+                  className={`accordion__item  ${activeFaq == elm.id ? "is-active" : ""
+                    }`}
                 >
                   <div className="accordion__button">
                     <div className="accordion__icon">
@@ -63,7 +58,7 @@ export default function Faq() {
                   </div>
 
                   <div
-                    style={activeFaq == elm.id ? { maxHeight: "139px" } : {}}
+                    style={activeFaq == elm.id ? { maxHeight: "300px" } : {}}
                     className="accordion__content"
                   >
                     <div className="accordion__content__inner">

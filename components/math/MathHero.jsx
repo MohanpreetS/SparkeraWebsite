@@ -5,6 +5,7 @@ import Image from "next/image";
 import ModalVideo from "@/components/common/ModalVideo";
 import gsap from "gsap";
 import Link from "next/link";
+import GetStarted from "../common/GetStarted";
 export default function MathHero() {
   const [isOpen, setIsOpen] = useState(false);
   useEffect(() => {
@@ -69,14 +70,7 @@ export default function MathHero() {
                 </h1> */}
 
                 <div className="row items-center x-gap-30 y-gap-20 pt-30">
-                  <div className="col-auto">
-                    <Link
-                      href="/courses-list-1"
-                      className="button -md -dark-1 -rounded text-white"
-                    >
-                      Get Started
-                    </Link>
-                  </div>
+                  <GetStarted />
                   {/* 
                   <div
                     className="col-auto"
