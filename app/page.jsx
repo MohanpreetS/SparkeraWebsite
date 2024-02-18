@@ -19,9 +19,9 @@ import HowWorks from "@/components/about/HowWorks";
 
 export const metadata = {
   title:
-    "Home-6 || Educrat - Professional LMS Online Education Course NextJS Template",
+    "SparkEra",
   description:
-    "Elevate your e-learning content with Educrat, the most impressive LMS template for online courses, education and LMS platforms.",
+    "Spark Your Child's Curiosity || Matha and English Worksheet based program",
 };
 
 export default function page() {
