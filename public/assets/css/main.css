@@ -16928,6 +16928,17 @@ table.table td {
 }
 
 
+.gradient-concert {
+  background: transparent;
+  background: linear-gradient(131deg, rgba(98, 137, 255, 1) 0%, rgba(192, 69, 255, 1) 100%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  font-family: "Concert";
+}
+
 .gradient-text {
   background: transparent;
   background: linear-gradient(131deg, rgba(98, 137, 255, 1) 0%, rgba(192, 69, 255, 1) 100%);
