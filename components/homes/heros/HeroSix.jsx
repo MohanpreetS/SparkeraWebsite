@@ -7,6 +7,8 @@ import ModalVideo from "@/components/common/ModalVideo";
 import gsap from "gsap";
 import Link from "next/link";
 import GetStarted from "@/components/common/GetStarted";
+
+
 export default function HeroSix() {
   const [isOpen, setIsOpen] = useState(false);
   useEffect(() => {
@@ -60,8 +62,8 @@ export default function HeroSix() {
                   Spark your child's Curiosity
                 </h1> */}
                 <h1 className="masthead__title">
-                  <span className="concert">Spark</span>{" "}Your <br />
-                  Child's <span className="gradient-text">Curiosity</span>
+                  <span className="concert text-purple-1">Spark</span>{" "}Your <br />
+                  Child's <span className="concert text-purple-1">Curiosity</span>
                 </h1>
                 <h2 className="semi-title"><span className="text-purple-1">Math</span> and <span className="text-purple-1">English</span> Worksheet Based Program</h2>
                 {/* <h1 className="masthead__title">

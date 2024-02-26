@@ -59,7 +59,7 @@ export default function EngHero() {
                   Spark your child's Curiosity
                 </h1> */}
                 <h1 className="masthead__title">
-                  <span className="concert gradient-text">ENGLISH</span>
+                  <span className="concert text-purple-1">ENGLISH</span>
                 </h1>
                 <h2 class="semi-title">Our extensive English curriculum allows your child to develop their reading and writing skills, offering them a lifetime of academic advantages.</h2>
                 {/* <h1 className="masthead__title">

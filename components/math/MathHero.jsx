@@ -59,7 +59,7 @@ export default function MathHero() {
                   Spark your child's Curiosity
                 </h1> */}
                 <h1 className="masthead__title">
-                  <span className="concert gradient-text">MATH</span>
+                  <span className="concert text-purple-1">MATH</span>
                 </h1>
                 <h2 class="semi-title">Our comprehensive math curriculum for grades K-12 is designed to develop strong foundational skills and foster a deep understanding of mathematical concepts.</h2>
                 {/* <h1 className="masthead__title">
