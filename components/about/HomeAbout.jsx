@@ -123,8 +123,8 @@ export default function HomeAbout() {
 //           xmlns="http://www.w3.org/2000/svg"
 //         >
 //           <path
-//             fill-rule="evenodd"
-//             clip-rule="evenodd"
+//             fillRule="evenodd"
+//             clipRule="evenodd"
 //             d="M1924.67 0L1922.7 7.03707C1911.58 46.7293 1877.25 75.5353 1836.23 79.5878L0 261V0H1924.67Z"
 //             fill="#F7F8FB"
 //           />

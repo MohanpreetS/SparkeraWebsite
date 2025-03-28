@@ -1,5 +1,7 @@
 import React from "react";
 import Image from "next/image";
+// import pdf from "/public/assets/pdfs/Elementary_Sample.pdf"
+
 export default function ElemMath() {
   return (
     <section className="layout-pt-lg layout-pb-lg">
@@ -22,7 +24,7 @@ export default function ElemMath() {
               Our Math program is designed to build a strong foundational understanding of essential mathematical concepts through interactive methods as well as daily practice. Starting with counting, we use visual aids and hands-on activities to help students grasp the basics. As they progress, addition and subtraction are introduced through fun games and practical exercises, making abstract concepts more tangible. Multiplication and division are taught using visual representations and repetitive practice is used to reinforce times tables. Our approach ensures that students not only learn how to perform mathematical operations but also understand the underlying principles, fostering a love for math and preparing them for more advanced topics.
             </p>
             <div className="d-inline-block mt-30">
-              <a href="#" className="button -md -dark-1 text-white">
+              <a href="/assets/pdfs/Elementary_Sample.pdf" className="button -md -dark-1 text-white" target='_blank' rel='noopener noreferrer'>
                 View Worksheets
               </a>
             </div>
@@ -101,8 +103,8 @@ export default function ElemMath() {
 //           xmlns="http://www.w3.org/2000/svg"
 //         >
 //           <path
-//             fill-rule="evenodd"
-//             clip-rule="evenodd"
+//             fillRule="evenodd"
+//             clipRule="evenodd"
 //             d="M1924.67 0L1922.7 7.03707C1911.58 46.7293 1877.25 75.5353 1836.23 79.5878L0 261V0H1924.67Z"
 //             fill="#F7F8FB"
 //           />

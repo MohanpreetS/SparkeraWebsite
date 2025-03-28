@@ -22,7 +22,7 @@ export default function HighMath() {
               Our Math program equips students with a comprehensive understanding of advanced Mathematical concepts through a focused and disciplined approach. Functions and Exponents are introduced with clear explanations and reinforced with daily worksheets to ensure a solid grasp. Statistics and Probability are covered through methodical practice exercises that build analytical skills. Surface Area and Volume are explored with 3D videos coupled with daily practice, aiding in visualization and comprehension. Trigonometry is taught with a blend of theoretical instruction and consistent practice to solidify understanding. Quadratics, Polynomials and Calculus, including Derivatives, are introduced in a detailed but easy-to-understand manner, emphasizing daily problem-solving to build proficiency. This rigorous approach prepares students for higher education and instills a deep and lasting understanding of complex mathematical topics.
             </p>
             <div className="d-inline-block mt-30">
-              <a href="#" className="button -md -dark-1 text-white">
+              <a href="/assets/pdfs/HighSchool_Sample.pdf" className="button -md -dark-1 text-white" target='_blank' rel='noopener noreferrer'>
                 View Worksheets
               </a>
             </div>
@@ -101,8 +101,8 @@ export default function HighMath() {
 //           xmlns="http://www.w3.org/2000/svg"
 //         >
 //           <path
-//             fill-rule="evenodd"
-//             clip-rule="evenodd"
+//             fillRule="evenodd"
+//             clipRule="evenodd"
 //             d="M1924.67 0L1922.7 7.03707C1911.58 46.7293 1877.25 75.5353 1836.23 79.5878L0 261V0H1924.67Z"
 //             fill="#F7F8FB"
 //           />

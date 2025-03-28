@@ -37,7 +37,7 @@ export default function MidMath() {
                 SparkEra deepens mathematical understanding through engaging examples and visual aids. This knowledge is solidified through daily practice worksheets. Starting with fractions and decimals, we use daily-life examples and regular practice to solidify these foundational concepts. Once students grasp the basics, they progress to practicing integers and percentages. Ratios and proportions are reinforced with problem-solving exercises and word problems that promote analytical thinking. Geometry topics like angles, perimeter, and area are tackled with step-by-step practice problems to ensure mastery and understanding of the formula derivations rather than just memorization. Pre-algebra, including linear equations and inequalities, is introduced methodically, with a focus on daily practice to build confidence and proficiency. This systematic approach ensures that students develop a strong, lasting comprehension of essential math skills.
               </p>
               <div className="d-inline-block mt-30">
-                <a href="#" className="button -md -dark-1 text-white">
+                <a href="/assets/pdfs/MiddleSchool_Sample.pdf" className="button -md -dark-1 text-white" target='_blank' rel='noopener noreferrer'>
                   View Worksheets
                 </a>
               </div>
@@ -54,8 +54,8 @@ export default function MidMath() {
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
+            fillRule="evenodd"
+            clipRule="evenodd"
             d="M1924.67 0L1922.7 7.03707C1911.58 46.7293 1877.25 75.5353 1836.23 79.5878L0 261V0H1924.67Z"
             fill="#F7F8FB"
           />
@@ -123,8 +123,8 @@ export default function MidMath() {
 //           xmlns="http://www.w3.org/2000/svg"
 //         >
 //           <path
-//             fill-rule="evenodd"
-//             clip-rule="evenodd"
+//             fillRule="evenodd"
+//             clipRule="evenodd"
 //             d="M1924.67 0L1922.7 7.03707C1911.58 46.7293 1877.25 75.5353 1836.23 79.5878L0 261V0H1924.67Z"
 //             fill="#F7F8FB"
 //           />

@@ -61,7 +61,7 @@ export default function MathHero() {
                 <h1 className="masthead__title">
                   <span className="concert text-purple-1">MATH</span>
                 </h1>
-                <h2 class="semi-title">Our comprehensive math curriculum for grades K-12 is designed to develop strong foundational skills and foster a deep understanding of mathematical concepts.</h2>
+                <h2 className="semi-title">Our comprehensive math curriculum for grades K-12 is designed to develop strong foundational skills and foster a deep understanding of mathematical concepts.</h2>
                 {/* <h1 className="masthead__title">
                   More Than{" "}
                   <span className="text-purple-1 underline">3.500+</span>{" "}
